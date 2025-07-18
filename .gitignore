@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+#My data Assets
+#These files will be ignored by git, but not by DVC
+/data

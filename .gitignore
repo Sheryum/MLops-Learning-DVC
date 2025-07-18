@@ -210,3 +210,4 @@ __marimo__/
 #My data Assets
 #These files will be ignored by git, but not by DVC
 /data
+/S3

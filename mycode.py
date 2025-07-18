@@ -7,7 +7,6 @@ data = {'Name': ['Alice', 'Bob', 'Charlie'],
 
 df = pd.DataFrame(data)
 
-
 data_dir = 'data'
 # To check if the directory exists and create it if it doesn't
 os.makedirs(data_dir, exist_ok=True)

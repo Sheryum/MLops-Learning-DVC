@@ -8,8 +8,8 @@ data = {'Name': ['Alice', 'Bob', 'Charlie'],
 df = pd.DataFrame(data)
 
 #Adding new row to data for second version
-#new_row = {'Name': 'David', 'Age': 40, 'City': 'Houston'}
-#df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+new_row = {'Name': 'David', 'Age': 40, 'City': 'Houston'}
+df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
 
 data_dir = 'data'
 # To check if the directory exists and create it if it doesn't
